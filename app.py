@@ -627,7 +627,7 @@ def main():
     
     # Layout da página
     if os.path.exists('capa.png'):
-        st.image('capa.png', width=100, caption='Laboratório de Educação e Inteligência Artificial - Geomaker. "A melhor forma de prever o futuro é inventá-lo." - Alan Kay', use_container_width='always')
+        st.image('capa.png', width=100, caption='Laboratório de Educação e Inteligência Artificial - Geomaker. "A melhor forma de prever o futuro é inventá-lo." - Alan Kay', use_container_width='True')
     else:
         st.warning("Imagem 'capa.png' não encontrada.")
     
